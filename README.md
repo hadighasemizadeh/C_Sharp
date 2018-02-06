@@ -8,3 +8,9 @@ In this repository, I am going to write all neccessary to have C# scripts.
 		through this script, user can create three different products for two 
 		different company. The key feature here is, it is extremely easy to add
 		more customer and products without changing the base code.
+		
+	# Builder
+		1-BuildComputer: this design pattern facilitate the process of building
+		new item for new user. it increase the code maintainability.
+		through this script, user can build two types of Computer based on given
+		computer configuration.
