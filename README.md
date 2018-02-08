@@ -14,3 +14,9 @@
 		#####new item for new user. it increase the code maintainability.
 		#####through this script, user can build two types of Computer based on given
 		#####computer configuration.
+		
+	## Prototype
+		#####ComputerPrototype: this design pattern facilitate the process of cloning an
+		#####object. We can have two type of clone. First, shallow which referece will 
+		#####be clonedor deep value will be cloned. I wrote both types of  prototype in 
+		#####two different folders.
