@@ -25,3 +25,8 @@
 	## Singleton
 		##### In this script I used builder design pattern script and tried to apply thread
 		##### safe singleton design patterns.
+		
+	## Composite
+		##### In this script I wrote composite component to calculate price of computer. The
+		##### benefit of this design pattern is you can compose a hierarchical structure while
+		##### we are composing a new object like object model (XML files)
