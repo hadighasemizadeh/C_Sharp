@@ -20,3 +20,7 @@
 		#####object. We can have two type of clone. First, shallow which referece will 
 		#####be clonedor deep value will be cloned. I wrote both types of  prototype in 
 		#####two different folders.
+		
+		
+	## Singleton
+		#####
