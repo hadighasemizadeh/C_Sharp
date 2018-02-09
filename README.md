@@ -23,4 +23,5 @@
 		
 		
 	## Singleton
-		#####
+		##### In this script I used builder design pattern script and tried to apply thread
+		##### safe singleton design patterns.
