@@ -17,8 +17,8 @@
 		
 	## Prototype
 		#####ComputerPrototype: this design pattern facilitate the process of cloning an
-		#####object. We can have two type of clone. First, shallow which referece will 
-		#####be clonedor deep value will be cloned. I wrote both types of  prototype in 
+		#####object. We can have two type of clone. First, shallow which reference will 
+		#####be cloned or deep value will be cloned. I wrote both types of  prototype in 
 		#####two different folders.
 		
 		
@@ -30,3 +30,11 @@
 		##### In this script I wrote composite component to calculate price of computer. The
 		##### benefit of this design pattern is you can compose a hierarchical structure while
 		##### we are composing a new object like object model (XML files)
+		
+	## Decorator
+		#####
+		
+	## Iterator
+		##### IterateAlienInfo: Is a simple iterator design pattern.
+
+
