@@ -37,3 +37,6 @@
 	## Iterator
 		#####IterateAlienInfo: It is a simple iterator design pattern. 
 		
+	## Observer
+		#####NotebookNotificationCenter: It consists of two methods of observer implementation
+		#####I implemented both on two different products, first NoteBookPro, NoteBookLite classes
