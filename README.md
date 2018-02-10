@@ -1,5 +1,5 @@
 
-#In this repository, I am going to write all neccessary to have C# scripts.
+#In this repository, I am going to write all necessary to have C# scripts.
 
 # DesignPatterns
 	## Factory
@@ -35,6 +35,5 @@
 		#####
 		
 	## Iterator
-		##### IterateAlienInfo: Is a simple iterator design pattern.
-
-
+		#####IterateAlienInfo: It is a simple iterator design pattern. 
+		
