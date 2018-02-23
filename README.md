@@ -5,7 +5,7 @@
 # Algorithms
 	## SingleLinkedList
 		#####In this program I implemented simple linked list. For those who like to
-		#####how to implement it in C#.
+		#####how to implement your customized linked list C#.
 
 # DesignPatterns
 	## Factory
