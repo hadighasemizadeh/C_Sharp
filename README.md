@@ -5,8 +5,10 @@
 # Algorithms
 	## SingleLinkedList
 		#####In this program I implemented simple linked list. For those who like to
-		#####how to implement your customized linked list C#.
-
+		##### know how to implement their customized linked list in C#.
+	## Stack
+		#####In this program I implemented simple stack. For those who like to know
+		#####how to implement their customized stack in C#.
 # DesignPatterns
 	## Factory
 		#####1-ProduceProducts: this design pattern facilitate the process of
