@@ -17,7 +17,7 @@ namespace TowerDiffence
             location = _mapCellLocation;
         }
 
-
+        public float accuracy { get; set; } = .6F;
 
         private readonly static Random random = new Random();
 
@@ -27,11 +27,30 @@ namespace TowerDiffence
             {
                 if (enemy.isActive && location.isInRangeOf(enemy.location, shootRange))
                 {
-                    enemy.DecreaseHealth(shootPower);
+                    if (isSuccessfulShoot())
+                    {
+                        enemy.DecreaseHealth(shootPower);
+                        Console.WriteLine("Nice shoot!");
+
+                        // Hited enemy is dead or not
+                        if (enemy.isDead)
+                            Console.WriteLine("I sent him to the hell!");
+                    }
+                    else
+                    {
+                        Console.WriteLine("Damn, I missed the target!!");
+                    }
+
                     // Only hit one enemy at the time
                     break;
                 }
             }
+        }
+
+        // Check to see it was a successful shoot or not
+        public bool isSuccessfulShoot()
+        {
+            return random.Next() >= accuracy;
         }
     }
 }
