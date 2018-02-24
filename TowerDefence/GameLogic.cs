@@ -27,7 +27,7 @@ namespace TowerDiffence
                 });
 
                 // Generate three towers
-                Tower[] towers = new Tower[]
+                Tower[] towersL1 = new Tower[]
                 {
                     new Tower(new MapCellLocation(0,3,map)),
                     new Tower(new MapCellLocation(2,3,map)),
@@ -43,7 +43,18 @@ namespace TowerDiffence
                     new Enemy(path)
                 };
 
-                Level level1 = new Level(enemies);
+                Level level1 = new Level(enemies)
+                {
+                    towers = towersL1
+                };
+
+                bool playerWon = level1.play();
+
+                // Display result of game
+                if (playerWon)
+                    Console.WriteLine("Player won");
+                else
+                    Console.WriteLine("Player lost");
             }
             catch (OutOfMap ex)
             {

@@ -17,6 +17,10 @@ namespace TowerDiffence
             location = _mapCellLocation;
         }
 
+
+
+        private readonly static Random random = new Random();
+
         public void FireOnEnemy(Enemy[] enemies)
         {
             foreach (var enemy in enemies)
