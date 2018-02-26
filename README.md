@@ -5,6 +5,8 @@
 	## In this game user should generate tower to stop enemies to reach to our tower.
 	
 # Algorithms
+	##CustomizedEqualityComparer
+		##### I wrote a simple IEquality comparer which accept LINQ expression
 	## SingleLinkedList
 		#####In this program I implemented simple linked list. For those who like to
 		##### know how to implement their customized linked list in C#.
